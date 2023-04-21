@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2f1cf39622c6e5aa10fda3976e879abd7b280e38f70fb74efb4ff9c507162ca2"
+            "sha256": "2af5969831f11afdcf481d4ecdc582327419e3791abb3900135751ea450ac0eb"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -23,6 +23,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==23.1.0"
+        },
+        "cachelib": {
+            "hashes": [
+                "sha256:38222cc7c1b79a23606de5c2607f4925779e37cdcea1c2ad21b8bae94b5425a5",
+                "sha256:811ceeb1209d2fe51cd2b62810bd1eccf70feba5c52641532498be5c675493b3"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==0.9.0"
         },
         "certifi": {
             "hashes": [
@@ -71,12 +79,28 @@
             "index": "pypi",
             "version": "==2.9.3"
         },
+        "dash-bootstrap-components": {
+            "hashes": [
+                "sha256:05c2e2767a8ab104fc950d15482d09dde59d21f1e9bd5809d30672e61b7f420c",
+                "sha256:17c9e6b90ff27abd3fbd6fe54ea85987b155414a247010467ec904406dcd3657"
+            ],
+            "index": "pypi",
+            "version": "==1.4.1"
+        },
         "dash-core-components": {
             "hashes": [
                 "sha256:52b8e8cce13b18d0802ee3acbc5e888cb1248a04968f962d63d070400af2e346",
                 "sha256:c6733874af975e552f95a1398a16c2ee7df14ce43fa60bb3718a3c6e0b63ffee"
             ],
             "version": "==2.0.0"
+        },
+        "dash-extensions": {
+            "hashes": [
+                "sha256:8369db7362513896116495080b425a748e49bfa9197723d101789a86b6c88434",
+                "sha256:8a8da362f83c583350517e883f88514cae0c46c6d075f39579b0fdd1750f5792"
+            ],
+            "index": "pypi",
+            "version": "==0.1.13"
         },
         "dash-html-components": {
             "hashes": [
@@ -91,6 +115,13 @@
                 "sha256:19036fa352bb1c11baf38068ec62d172f0515f73ca3276c79dee49b95ddc16c9"
             ],
             "version": "==5.0.0"
+        },
+        "editorconfig": {
+            "hashes": [
+                "sha256:57f8ce78afcba15c8b18d46b5170848c88d56fd38f05c2ec60dbbfcb8996e89e",
+                "sha256:6b0851425aa875b08b16789ee0eeadbd4ab59666e9ebe728e526314c4a2e52c1"
+            ],
+            "version": "==0.12.3"
         },
         "fiona": {
             "hashes": [
@@ -126,6 +157,14 @@
             "markers": "python_version >= '3.7'",
             "version": "==2.2.3"
         },
+        "flask-caching": {
+            "hashes": [
+                "sha256:19571f2570e9b8dd9dd9d2f49d7cbee69c14ebe8cc001100b1eb98c379dd80ad",
+                "sha256:24b60c552d59a9605cc1b6a42c56cdb39a82a28dab4532bbedb9222ae54ecb4e"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==2.0.2"
+        },
         "geopandas": {
             "hashes": [
                 "sha256:0a470e4bf6f5367e6fd83ab6b40405e0b805c8174665bbcb7c4077ed90202912",
@@ -157,6 +196,12 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==3.1.2"
+        },
+        "jsbeautifier": {
+            "hashes": [
+                "sha256:77993254db1ff6f84eb6e1d75e3b6b72cba2ef20813a585b2d81e8e5e3c713c6"
+            ],
+            "version": "==1.14.7"
         },
         "markupsafe": {
             "hashes": [
@@ -213,6 +258,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==2.1.2"
+        },
+        "more-itertools": {
+            "hashes": [
+                "sha256:cabaa341ad0389ea83c17a94566a53ae4c9d07349861ecb14dc6d0345cf9ac5d",
+                "sha256:d2bc7f02446e86a68911e58ded76d6561eea00cddfb2a91e7019bbb586c799f3"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==9.1.0"
         },
         "munch": {
             "hashes": [

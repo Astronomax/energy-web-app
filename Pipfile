@@ -9,6 +9,8 @@ plotly = "*"
 numpy = "*"
 pandas = "*"
 geopandas = "*"
+dash-bootstrap-components = "*"
+dash-extensions = "*"
 
 [dev-packages]
 
