@@ -1,15 +1,15 @@
 from flask import Flask
 from flask_cors import CORS
-from app.config import DevConfig
+from app.config import ProdConfig
 from app.exts import db
 from flask_migrate import Migrate
 from app.models import User
 
 app = Flask(__name__, static_url_path="/", static_folder="../client/build")
-app.config.from_object(DevConfig)
+app.config.from_object(ProdConfig)
 db.init_app(app)
 migrate=Migrate(app, db)
-#CORS(app)
+CORS(app)
 
 @app.route("/")
 def index():
