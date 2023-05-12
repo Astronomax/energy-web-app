@@ -1,4 +1,3 @@
 #!/bin/bash
-pip install pipenv
-pipenv install -r requirements.txt
-"db.create_all()\nquit()" | flask shell
+pip install -r requirements.txt
+printf 'db.create_all()\nquit()' | python3 -m flask shell
